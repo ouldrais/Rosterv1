@@ -17,7 +17,33 @@
     <property name="datetimeType" value="datetime(6)" dbms="mysql"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115041345_added_entity_Team.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115041445_added_entity_TeamPlan.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115041545_added_entity_Resource.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115041645_added_entity_ResourcePlan.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115041745_added_entity_ShiftDemand.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115041845_added_entity_Task.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115041945_added_entity_Facility.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042045_added_entity_ResourceTraining.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042145_added_entity_Training.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042245_added_entity_PositionRequirement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042345_added_entity_Position.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042445_added_entity_Department.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042545_added_entity_Shift.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042645_added_entity_ShiftTemplate.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042745_added_entity_Role.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042845_added_entity_ResourceRoles.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042945_added_entity_RefRotation.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20240115041445_added_entity_constraints_TeamPlan.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115041545_added_entity_constraints_Resource.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115041645_added_entity_constraints_ResourcePlan.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115041745_added_entity_constraints_ShiftDemand.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042045_added_entity_constraints_ResourceTraining.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042245_added_entity_constraints_PositionRequirement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042345_added_entity_constraints_Position.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042445_added_entity_constraints_Department.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20240115042845_added_entity_constraints_ResourceRoles.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>
