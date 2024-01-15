@@ -1,0 +1,16 @@
+{
+  "annotations": {
+    "changelogDate": "20240115042945"
+  },
+  "applications": "*",
+  "entityTableName": "ref_rotation",
+  "fields": [
+    {
+      "fieldName": "order",
+      "fieldType": "Long"
+    }
+  ],
+  "name": "RefRotation",
+  "relationships": [],
+  "searchEngine": "no"
+}
